@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rock, Paper, Scissors Game">
+  <!-- title -->
+  <title>Rock Paper Scissors</title>
+  <!-- styles -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="favicon" href="./html.png">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/acc4ba919d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="title">Rock Paper Scissors</h1>
+    </div>
+
+    <div class="selections">
+      <div class="player-selection">
+        <span class="fa-solid fa-question"></span>
+      </div>
+      <div class="scoreboard">
+        <div class="player-score">
+          <p>Player</p>
+          <span id="player-counter">0</span>
+        </div>
+        <div class="computer-score">
+          <p>CPU</p>
+          <span id="computer-counter">0</span>
+        </div>
+      </div>
+      <div class="computer-selection">
+        <span class="fa-solid fa-question"></span>
+      </div>
+    </div>
+
+    <div class="options">
+      <button class="option rock">
+        <span class="fa-solid fa-hand-back-fist"></span>
+      </button>
+      <button class="option paper">
+        <span class="fa-solid fa-hand"></span>
+      </button>
+      <button class="option scissors">
+        <span class="fa-solid fa-hand-scissors"></span>
+      </button>
+    </div>
+
+    <div class="log">
+      <p>Log:</p>
+    </div>
+  </div>
+  <!-- scripts -->
+  <script src="./js/scripts.js"></script>
+</body>
+</html>
